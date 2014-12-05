@@ -10,8 +10,12 @@ var regist = require('./routes/regist');
 var publish_topic = require('./routes/publish_topic');
 var users = require('./routes/users');
 var index = require('./routes/index');
+<<<<<<< HEAD
 var zan = require('./routes/zan');
 var comment = require('./routes/comment');
+=======
+
+>>>>>>> 404bb80eaaaf4cd1ff0eb37e4b7140eff3976b4c
 var app = express();
 
 // view engine setup
@@ -30,8 +34,11 @@ app.use('/login', login);
 app.use('/regist', regist);
 app.use('/publish_topic',publish_topic);
 app.use('/users', users);
+<<<<<<< HEAD
 app.use('/zan',zan);
 app.use('/comment',comment);
+=======
+>>>>>>> 404bb80eaaaf4cd1ff0eb37e4b7140eff3976b4c
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
