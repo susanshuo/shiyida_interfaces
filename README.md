@@ -1,6 +1,6 @@
-shiyida_interfaces
-==================
+shiyida
+=======
 
-世易大项目接口文件
+世易大项目接口
 
-contribute by KevinZhou , CQCRE , Liaoyuming
+by ZCW,CQC,LYM
