@@ -10,8 +10,8 @@ var regist = require('./routes/regist');
 var publish_topic = require('./routes/publish_topic');
 var users = require('./routes/users');
 var index = require('./routes/index');
-var zan = require('./routes/zan');
-var comment = require('./routes/comment');
+var zan = require('./routes/pub_zan');
+var comment = require('./routes/pub_comment');
 var app = express();
 
 // view engine setup
@@ -30,8 +30,8 @@ app.use('/login', login);
 app.use('/regist', regist);
 app.use('/publish_topic',publish_topic);
 app.use('/users', users);
-app.use('/zan',zan);
-app.use('/comment',comment);
+app.use('/pub_zan',zan);
+app.use('/pub_comment',comment);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
