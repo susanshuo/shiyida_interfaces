@@ -11,8 +11,8 @@ var publish_topic = require('./routes/publish_topic');
 var users = require('./routes/users');
 var index = require('./routes/index');
 
-var zan = require('./routes/zan');
-var comment = require('./routes/comment');
+var zan = require('./routes/pub_zan');
+var comment = require('./routes/pub_comment');
 var suggestion = require('./routes/suggestion');
 
 var zan = require('./routes/pub_zan');
