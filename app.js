@@ -12,6 +12,7 @@ var users = require('./routes/users');
 var index = require('./routes/index');
 var zan = require('./routes/zan');
 var comment = require('./routes/comment');
+var suggestion = require('./routes/suggestion');
 var app = express();
 
 // view engine setup
@@ -32,6 +33,7 @@ app.use('/publish_topic',publish_topic);
 app.use('/users', users);
 app.use('/zan',zan);
 app.use('/comment',comment);
+app.use('/suggestion',suggestion);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bcryptjs' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'bcryptjs', null ]
+7 verbose cache add name=undefined spec="bcryptjs" args=["bcryptjs",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'bcryptjs',
+8 verbose parsed url   path: 'bcryptjs',
+8 verbose parsed url   href: 'bcryptjs' }
+9 silly lockFile 17f39444-bcryptjs bcryptjs
+10 verbose lock bcryptjs C:\Users\ColdCoder\AppData\Roaming\npm-cache\17f39444-bcryptjs.lock
+11 silly lockFile 17f39444-bcryptjs bcryptjs
+12 silly lockFile 17f39444-bcryptjs bcryptjs
+13 verbose addNamed [ 'bcryptjs', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 8fc7b238-bcryptjs bcryptjs@
+16 verbose lock bcryptjs@ C:\Users\ColdCoder\AppData\Roaming\npm-cache\8fc7b238-bcryptjs.lock
+17 silly addNameRange { name: 'bcryptjs', range: '*', hasData: false }
+18 verbose request where is /bcryptjs
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id d62097c19a8fed83
+21 verbose url raw /bcryptjs
+22 verbose url resolving [ 'https://registry.npmjs.org/', './bcryptjs' ]
+23 verbose url resolved https://registry.npmjs.org/bcryptjs
+24 verbose request where is https://registry.npmjs.org/bcryptjs
+25 info trying registry request attempt 1 at 01:07:49
+26 http GET https://registry.npmjs.org/bcryptjs
+27 http 200 https://registry.npmjs.org/bcryptjs
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Sat, 06 Dec 2014 17:07:51 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"2XK0BWNXDQ6P5UI0Z69JJW5FF"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '43669',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-hk92-HKG',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1417885670.195114,VS0,VE1196',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'bcryptjs', range: '*', hasData: true }
+30 silly addNameRange versions [ 'bcryptjs',
+30 silly addNameRange   [ '0.7.5',
+30 silly addNameRange     '0.7.6',
+30 silly addNameRange     '0.7.7',
+30 silly addNameRange     '0.7.8',
+30 silly addNameRange     '0.7.10',
+30 silly addNameRange     '0.7.12',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.0.2',
+30 silly addNameRange     '2.1.0' ] ]
+31 verbose addNamed [ 'bcryptjs', '2.1.0' ]
+32 verbose addNamed [ '2.1.0', '2.1.0' ]
+33 silly lockFile 041e8dd2-bcryptjs-2-1-0 bcryptjs@2.1.0
+34 verbose lock bcryptjs@2.1.0 C:\Users\ColdCoder\AppData\Roaming\npm-cache\041e8dd2-bcryptjs-2-1-0.lock
+35 silly lockFile 4d34382b--org-bcryptjs-bcryptjs-2-1-0-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+36 verbose lock https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz C:\Users\ColdCoder\AppData\Roaming\npm-cache\4d34382b--org-bcryptjs-bcryptjs-2-1-0-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz',
+37 verbose addRemoteTarball   '5e6076196f6e3e957820aceb004410a7cf367042' ]
+38 info retry fetch attempt 1 at 01:07:51
+39 verbose fetch to= C:\Users\COLDCO~1\AppData\Local\Temp\npm-5980-0Br_Dnhw\registry.npmjs.org\bcryptjs\-\bcryptjs-2.1.0.tgz
+40 http GET https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+41 error fetch failed https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+42 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+43 info retry fetch attempt 2 at 01:08:22
+44 verbose fetch to= C:\Users\COLDCO~1\AppData\Local\Temp\npm-5980-0Br_Dnhw\registry.npmjs.org\bcryptjs\-\bcryptjs-2.1.0.tgz
+45 http GET https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+46 error fetch failed https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+47 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+48 info retry fetch attempt 3 at 01:09:43
+49 verbose fetch to= C:\Users\COLDCO~1\AppData\Local\Temp\npm-5980-0Br_Dnhw\registry.npmjs.org\bcryptjs\-\bcryptjs-2.1.0.tgz
+50 http GET https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+51 error fetch failed https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+52 silly lockFile 4d34382b--org-bcryptjs-bcryptjs-2-1-0-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+53 silly lockFile 4d34382b--org-bcryptjs-bcryptjs-2-1-0-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.1.0.tgz
+54 silly lockFile 041e8dd2-bcryptjs-2-1-0 bcryptjs@2.1.0
+55 silly lockFile 041e8dd2-bcryptjs-2-1-0 bcryptjs@2.1.0
+56 silly lockFile 8fc7b238-bcryptjs bcryptjs@
+57 silly lockFile 8fc7b238-bcryptjs bcryptjs@
+58 error network connect ETIMEDOUT
+58 error network This is most likely not a problem with npm itself
+58 error network and is related to network connectivity.
+58 error network In most cases you are behind a proxy or have bad network settings.
+58 error network
+58 error network If you are behind a proxy, please make sure that the
+58 error network 'proxy' config is set properly.  See: 'npm help config'
+59 error System Windows_NT 6.2.9200
+60 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bcryptjs"
+61 error cwd E:\Code\git\shiyida
+62 error node -v v0.10.32
+63 error npm -v 1.4.28
+64 error syscall connect
+65 error code ETIMEDOUT
+66 error errno ETIMEDOUT
+67 verbose exit [ 1, true ]
