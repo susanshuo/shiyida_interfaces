@@ -15,6 +15,9 @@ var zan = require('./routes/pub_zan');
 var comment = require('./routes/pub_comment');
 var suggestion = require('./routes/suggestion');
 
+var versionname = require('./routes/get_versionname');
+var apkurl = require('./routes/get_apkurl');
+
 var app = express();
 
 // view engine setup
@@ -40,6 +43,9 @@ app.use('/suggestion',suggestion);
 
 app.use('/pub_zan',zan);
 app.use('/pub_comment',comment);
+
+app.use('/get_versionname',versionname);
+app.use('/get_apkurl',apkurl);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
