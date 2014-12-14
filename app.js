@@ -15,9 +15,6 @@ var zan = require('./routes/pub_zan');
 var comment = require('./routes/pub_comment');
 var suggestion = require('./routes/suggestion');
 
-var zan = require('./routes/pub_zan');
-var comment = require('./routes/pub_comment');
-
 var app = express();
 
 // view engine setup
