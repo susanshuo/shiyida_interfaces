@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/',function(req,res){
 	versionname.versionname(function(msg){
 		console.log("msg:",msg);
-		res.write(msg.toString());
+		res.write(JSON.stringify(msg));
 		res.end();
 	});
 });

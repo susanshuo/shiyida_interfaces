@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/',function(req,res){
 	apk_url.apk_url(function(msg){
 		console.log("msg:",msg);
-		res.write(msg.toString());
+		res.write(JSON.stringify(msg));
 		res.end();
 	});
 });
